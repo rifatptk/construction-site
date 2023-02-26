@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import Hero from "@/components/Hero";
 import Head from "next/head";
 
 export default function Home() {
@@ -12,7 +13,7 @@ export default function Home() {
       </Head>
 
       <Header />
-      {/* <Hero/> */}
+      <Hero />
       {/* <Experience/> */}
       {/* <Roadmap/> */}
       {/* <Featured/> */}

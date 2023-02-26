@@ -1,14 +1,13 @@
 import { navLinks } from "@/constants";
 import Link from "next/link";
 import React, { useState } from "react";
-import { GoGlobe } from "react-icons/go";
 import { AiOutlineMenu } from "react-icons/ai";
 
 export default function Header() {
   const [current, setCurrent] = useState(0);
   const [isMobileNav, setIsMobileNav] = useState(false);
   return (
-    <header id="home" className="bg-brand-dark p-5">
+    <header id="home" className="bg-brand-dark p-5 fixed top-0 w-full z-50">
       <div className="container mx-auto flex justify-between items-center">
         <h1 className="uppercase text-2xl text-brand font-bold ">
           riconstruct
