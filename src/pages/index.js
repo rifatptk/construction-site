@@ -1,3 +1,4 @@
+import Experience from "@/components/Experience";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Head from "next/head";
@@ -14,7 +15,7 @@ export default function Home() {
 
       <Header />
       <Hero />
-      {/* <Experience/> */}
+      <Experience />
       {/* <Roadmap/> */}
       {/* <Featured/> */}
     </>
