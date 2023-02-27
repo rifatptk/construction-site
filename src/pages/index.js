@@ -1,7 +1,9 @@
+import Contact from "@/components/Contact";
 import Experience from "@/components/Experience";
 import Featured from "@/components/Featured";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import Reviews from "@/components/Reviews";
 import Head from "next/head";
 
 export default function Home() {
@@ -17,8 +19,9 @@ export default function Home() {
       <Header />
       <Hero />
       <Experience />
-      {/* <Roadmap/> */}
       <Featured />
+      <Reviews />
+      <Contact />
     </>
   );
 }
