@@ -17,8 +17,8 @@ export default function Footer() {
                 Resources
               </h2>
               <ul className="text-gray-600 dark:text-gray-400">
-                <li className="mb-4">Next.js</li>
-                <li>Tailwind CSS</li>
+                <li className="mb-4">Supplies</li>
+                <li>Services</li>
               </ul>
             </div>
             <div>
@@ -26,7 +26,7 @@ export default function Footer() {
                 Follow us
               </h2>
               <ul className="text-gray-600 dark:text-gray-400">
-                <li className="mb-4">Github</li>
+                <li className="mb-4">Twitter</li>
                 <li>Discord</li>
               </ul>
             </div>

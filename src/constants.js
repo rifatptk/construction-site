@@ -15,19 +15,19 @@ export const featuredProjects = [
   {
     id: 2,
     img: "/img/c2.jpg",
-    title: "Sikuan Tower",
+    title: "Elvis Complex",
     type: "Building & Architecture",
   },
   {
     id: 3,
     img: "/img/c3.jpg",
-    title: "Sikuan Tower",
+    title: "Enturc Tower",
     type: "Construction & Architecture",
   },
   {
     id: 4,
     img: "/img/c4.jpg",
-    title: "Sikuan Tower",
+    title: "Betac Tower",
     type: "Renovation & Architecture",
   },
   {

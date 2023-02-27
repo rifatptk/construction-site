@@ -11,7 +11,7 @@ export default function Header() {
     <header className="bg-brand-dark/50 backdrop-blur-md p-5 fixed top-0 w-full z-50">
       <Container>
         <div className="flex justify-between items-center">
-          <h1 className="uppercase text-2xl text-brand font-bold ">
+          <h1 className="uppercase tracking-widest text-2xl text-brand font-bold ">
             riconstruct
           </h1>
           <div className="hidden md:flex items-center justify-between gap-10">
