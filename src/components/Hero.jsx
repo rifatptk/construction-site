@@ -47,11 +47,11 @@ export default function Hero() {
         </div>
         <div className="flex items-center gap-4">
           <BsCheckCircleFill />
-          <span>Quality control system, 100% satisfaction guarantee</span>
+          <span>Highly proffesional staff, Accurate testing processes</span>
         </div>
         <div className="flex items-center gap-4">
           <BsCheckCircleFill />
-          <span>Quality control system, 100% satisfaction guarantee</span>
+          <span>Unrivalled workmanship, Proffesional and qualified</span>
         </div>
       </div>
     </section>

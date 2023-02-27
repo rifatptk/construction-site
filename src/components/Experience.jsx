@@ -30,7 +30,7 @@ export default function Experience() {
         <div className="flex flex-col md:flex-row gap-10 items-center mt-20">
           <div className="flex-1">
             <picture>
-              <img src="img/banner.jpeg" className="w-full rounded" alt="" />
+              <img src="img/experience.jpg" className="w-full rounded" alt="" />
             </picture>
           </div>
           <main className="flex-1 space-y-6">
