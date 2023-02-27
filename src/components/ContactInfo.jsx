@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ContactInfo() {
   return (
-    <div className="flex-1 bg-brand p-10 rounded-lg">
+    <div className="flex-1 bg-brand p-5 md:p-10 rounded-lg text-sm md:text-base">
       <h2 className="font-bold text-lg">Contact Info</h2>
 
       <ul className="mt-5 space-y-5">

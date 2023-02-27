@@ -7,7 +7,7 @@ export default function Reviews() {
   const [currentReview, setcurrentReview] = useState(1);
 
   return (
-    <section className="bg-brand-dark text-white py-10">
+    <section id="services" className="bg-brand-dark text-white py-10">
       <Container>
         <div className="text-center">
           <h1 className="text-brand text-2xl font-bold ">

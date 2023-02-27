@@ -5,7 +5,7 @@ import Container from "./Container";
 
 export default function Contact() {
   return (
-    <section className="bg-brand-dark relative py-10">
+    <section id="contact" className="bg-brand-dark relative py-10">
       <picture className="brightness-[20%] absolute inset-0">
         <img src="img/banner.jpeg" alt="" className="h-full" />
       </picture>

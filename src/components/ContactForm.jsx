@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ContactForm() {
   return (
-    <div className="flex-[2] bg-brand rounded-lg p-10">
+    <div className="flex-[2] bg-brand rounded-lg p-5 md:p-10">
       <h3 className="font-semibold">Request A Quote</h3>
       <p>
         Complete control over products allow us to our customers the best
@@ -10,8 +10,8 @@ export default function ContactForm() {
         do in Jhontraktor{" "}
       </p>
 
-      <form className="text-gray-400">
-        <div className="mt-5 grid grid-cols-2 gap-5">
+      <form className="text-gray-400 text-sm md:text-base">
+        <div className="mt-5 grid md:grid-cols-2 gap-5">
           <input type="text" placeholder="Name" className="px-5 py-2 rounded" />
           <input
             type="email"
@@ -34,11 +34,12 @@ export default function ContactForm() {
 
           <textarea
             placeholder="Additional Details"
-            className="col-span-2 rounded min-h-[160px] px-5 py-2"
+            className="md:col-span-2 rounded min-h-[160px] px-5 py-2"
           />
+
           <button
             type="button"
-            className="px-5 py-2 bg-brand-dark hover:bg-black col-span-2 rounded"
+            className="px-5 py-2 bg-brand-dark hover:bg-black md:col-span-2 rounded"
           >
             Submit Request
           </button>

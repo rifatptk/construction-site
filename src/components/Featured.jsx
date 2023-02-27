@@ -7,7 +7,7 @@ import { BsFillArrowRightCircleFill } from "react-icons/bs";
 
 export default function Featured() {
   return (
-    <section className="bg-brand text-white min-h-screen py-10">
+    <section id="projects" className="bg-brand text-white py-10">
       <Container>
         <h1 className="font-bold text-4xl text-brand-dark">
           Featured Projects

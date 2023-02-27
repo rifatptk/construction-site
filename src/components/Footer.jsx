@@ -7,7 +7,7 @@ export default function Footer() {
       <Container>
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
-            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+            <span className="self-center text-2xl font-semibold whitespace-nowrap text-brand">
               Riconstruct
             </span>
           </div>
@@ -17,7 +17,7 @@ export default function Footer() {
                 Resources
               </h2>
               <ul className="text-gray-600 dark:text-gray-400">
-                <li className="mb-4">Flowbite</li>
+                <li className="mb-4">Next.js</li>
                 <li>Tailwind CSS</li>
               </ul>
             </div>

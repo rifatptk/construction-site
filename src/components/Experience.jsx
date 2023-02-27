@@ -3,9 +3,10 @@ import Container from "./Container";
 
 export default function Experience() {
   return (
-    <section className="bg-brand-dark text-white min-h-screen  py-10">
+    <section id="about" className="bg-brand-dark text-white pt-10 pb-20">
       <Container>
-        <header className="flex gap-6">
+        <h1 className="text-4xl mb-5 font-semibold">Experiences</h1>
+        <header className="flex flex-col md:flex-row gap-10 gap-md-6">
           <p className="flex items-center gap-2 ">
             <span className="font-bold text-5xl text-brand">25+</span>
             <span>
@@ -26,7 +27,7 @@ export default function Experience() {
           </p>
         </header>
 
-        <div className="flex gap-10 items-center mt-20">
+        <div className="flex flex-col md:flex-row gap-10 items-center mt-20">
           <div className="flex-1">
             <picture>
               <img src="img/banner.jpeg" className="w-full rounded" alt="" />
